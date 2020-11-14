@@ -1,0 +1,152 @@
+.lastsearch {
+    margin: 5% !important;
+}
+.lastsearch2 {
+    background-color: rgb(235, 238, 239);
+    margin: 0 !important;
+    padding: 20px 8px 20px 8px;
+}
+.lastsearch2b {
+    background-color: white;
+    margin: 0 !important;
+    padding: 20px 8px 20px 8px;
+}
+.lastsearch3 {
+    background-color: rgb(235, 238, 239);
+    padding: 8px !important;
+}
+.lastsearch3b {
+    background-color: white;
+    padding: 8px !important;
+}
+.basedonsearch {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    display: flex;
+    flex-direction: row;
+}
+.basedonsearch1 {
+    flex: 1;
+    font-weight: bold;
+    font-size: x-large;
+}
+.basedonsearchlink {
+    color: rgb(0, 48, 52);
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.basedonsearchlink:hover {
+    color: rgb(0, 48, 52);
+    text-decoration: none;
+}
+.basedonsearchitems {
+    flex: 1;
+    padding: 0 !important;
+    margin: 10px !important;
+    background-color: white;
+}
+.basedonsearchitemslink {
+    background-color: white;
+    padding: 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
+    color: rgb(0, 48, 52);
+}
+.featureditems {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.featureditemspic {
+    width: 100%;
+    height: 150px;
+}
+.featureddiv {
+    margin: 0;
+    width: 100% !important; 
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+.featureddiv2 {
+    width: 100%;
+    margin: 0;
+    flex: 1;
+}
+.featuredp {
+    margin-left: 18px !important;
+    margin: 0;
+    width: fit-content;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: rgb(255, 206, 50);
+}
+.favouriteicon {
+    margin-right: 15px !important;
+    margin: 0;
+}
+.favouriteicon2 {
+    font-size: xx-large !important;
+}
+.favouriteicon3 {
+    color: red !important;
+    font-size: xx-large !important;
+}
+.itemdiscription {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 7px solid;
+    border-color: rgb(255, 206, 50);
+}
+.itemprice {
+    margin-bottom: 0;
+    font-size: x-large;
+    font-weight: 700;
+}
+.itemprice2 {
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+}
+.itemprice3 {
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    color: gray;
+}
+.dateandlocation {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.itemprice4 {
+    font-size: smaller;
+    text-transform: uppercase;
+    white-space: nowrap; 
+    width: 70%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    color: gray;
+}
+.itemprice5 {
+    font-size: smaller;
+    width: 30%;
+    margin-bottom: 0;
+    color: gray;
+    text-align: right;
+}

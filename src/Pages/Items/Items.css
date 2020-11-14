@@ -1,0 +1,98 @@
+.allitemrow {
+    padding: 10px;
+    background-color: white;
+}
+
+.allitemsbtn {
+    width: 100%;
+    font-size: medium;
+    font-weight: 500;
+    text-align: left !important;
+    padding-left: 20px; 
+    border: none;
+    background-color: white;
+}
+.allitemsbtn:focus {
+    outline: none;
+}
+.allitemslink {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: x-large;
+}
+.itemslist {
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: white;
+    color: rgb(0, 48, 52);
+}
+.itemslistlink {
+    color: rgb(0, 48, 52);
+}
+.itemslistlink:hover {
+    color: lightseagreen;
+    text-decoration: none;
+}
+.allitemscontainer {
+    position: absolute;
+    z-index: 1;
+    /* padding-top: 30px !important; */
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+.allitemsrow {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.allitemscol {
+    color: black;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.Vehiclesdiv {
+    margin-top: 30px;
+}
+.allitems12 {
+    font-size: medium;
+    font-weight: 500;
+    /* margin-bottom: 5px;
+    margin-top: 5px; */
+}
+.allitemsheding {
+    color: black !important;
+    font-weight: bolder;
+}
+.allitemshedinglinkp {
+    margin-bottom: 10px;
+}
+.allitemshedinglink {
+    color: black;
+    font-weight: bolder;
+}
+.allitemshedinglink:hover {
+    color: lightseagreen;
+    text-decoration: none;
+}
+.allitemslinkp {
+    margin-bottom: 5px;
+}
+.allitemslink2 {
+    color: black;
+}
+
+.allitemslink2:hover {
+    color: lightseagreen;
+    text-decoration: none;
+}
+.olxposter {
+    overflow: hidden;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    margin: 0;
+}

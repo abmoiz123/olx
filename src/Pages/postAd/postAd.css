@@ -1,0 +1,129 @@
+.Header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(235, 238, 239);
+    color: rgb(0, 48, 52);
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px 10px 15px;
+}
+.back {
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0px 10px 0px 10px;
+    font-size: x-large;
+    border: none;
+}
+.back:focus {
+    outline: none;
+}
+.olxname {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+}
+.postadcon {
+    color: rgb(0, 48, 52);
+    padding-bottom: 25px;
+}
+.postaddiv {
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+}
+.choosecategory {
+    border: 1px solid rgb(235, 238, 239);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.choosecategory2 {
+    padding: 25px;
+    padding-left: 15px;
+    margin: 0;
+}
+.itemlistcol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.itemlistcol2 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.chooseitem {
+    cursor: pointer;
+    color: gray;
+    border: 1px solid rgb(235, 238, 239);
+    border-left: none;
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+}
+.chooseitem:hover {
+    color: rgb(0, 48, 52);
+    background-color: rgb(235, 238, 239);
+}
+.chooseitem2 {
+    cursor: pointer;
+    color: gray;
+    border: 1px solid rgb(235, 238, 239);
+    border-left: none;
+    /* border-bottom: none; */
+    display: flex;
+    flex-direction: row;
+}
+.chooseitem2:hover {
+    color: rgb(0, 48, 52);
+    background-color: rgb(235, 238, 239);
+}
+.chooseitem3 {
+    cursor: pointer;
+    color: gray;
+    border: 1px solid rgb(235, 238, 239);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+}
+.chooseitem3:hover {
+    color: rgb(0, 48, 52);
+    background-color: rgb(235, 238, 239);
+}
+.chooseitem4 {
+    cursor: pointer;
+    color: gray;
+    border: 1px solid rgb(235, 238, 239);
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+}
+.chooseitem4:hover {
+    color: rgb(0, 48, 52);
+    background-color: rgb(235, 238, 239);
+}
+.itemname {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    flex: 1;
+    font-size: large;
+}
+.itemname2 {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    flex: 1;
+    font-size: large;
+}
+.itemicon {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    width: 45px;
+    padding-top: 10px;
+}

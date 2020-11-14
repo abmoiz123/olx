@@ -1,0 +1,119 @@
+/* div {
+    border: 1px solid;
+} */
+.footerhr {
+    margin: 0;
+    color: gray;
+    border: 1px solid;
+}
+.footercontainer {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(235, 238, 239);
+}
+.footercontainer2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgb(0, 48, 52);
+}
+.footerlinks {
+    flex: 1;
+}
+.footerheading {
+    margin-bottom: 10px;
+    color: rgb(0, 48, 52);
+    font-weight: bolder;
+}
+.footeritemsp {
+    margin-bottom: 0;
+}
+.footeritemslink {
+    font-size: smaller;
+    color: gray;
+}
+
+.footeritemslink:hover {
+    text-decoration: none;
+    color: rgb(0, 48, 52);
+}
+.sociallinkp {
+    /* width: 20px !important; */
+    margin: 5px;
+    color: gray;
+    font-size: smaller;
+    border: 1px solid;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    /* padding: 4px 8px 4px 8px; */
+    border-radius: 50%;
+    /* width: auto; */
+}
+.sociallinkicon {
+    text-align: center;
+    width: 25px;
+    color: gray;
+}
+.appdownloadbtn {
+    margin-top: 20px;
+}
+.appstorebtn {
+    margin: 5px;
+    border: none;
+    padding: 0;
+    /* width: 45%; */
+    height: auto;
+}
+.appstorebtn:focus {
+    text-decoration: none;
+    outline: none;
+}
+.appstore {
+    width: 100px;
+    height: 30px;
+}
+.footercountry {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    font-weight: bolder;
+    margin: 0;
+}
+.footercountry2 {
+    flex: 1;
+    font-weight: bolder;
+    margin: 0;
+}
+.footercountry3 {
+    display: inline-block;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.footercountry4 {
+    position: relative;
+    right: 0 !important;
+    display: inline-block;
+    margin: 0;
+}
+.footeritemslink2 {
+    font-weight: 300;
+    font-size: smaller;
+    color: white;
+}
+
+.footeritemslink2:hover {
+    text-decoration: none;
+    color: white;
+}   

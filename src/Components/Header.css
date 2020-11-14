@@ -1,0 +1,331 @@
+.navcon {
+    background-color: rgb(235, 238, 239);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(0, 48, 52);
+}
+.navbrand1 {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+.navbrand2 {
+    height: 100%;
+    font-weight: bolder;
+    /* font-size: x-large; */
+    color: rgb(0, 48, 52);
+}
+.searchprovince {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+.search1 {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    width: 12%;
+    font-size: x-large;
+}
+.searchprovince1 {
+    color: gray;
+    font-weight: 500;
+    padding: 10px 50px 10px 50px;
+    width: 100%;
+    /* height: 100%; */
+    border: 2px solid;
+    border-color: rgb(0, 48, 52);
+    border-radius: 5px;
+}
+.searchprovince1:focus {
+    border-color: lightseagreen;
+    outline: none;
+}
+.angledown {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 12%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+/* .fa-angle-down:active {
+    transform: rotate(180deg);
+    transition: transform 0.2s;
+} */
+.location {
+    position: absolute;
+    left: 8px;
+    top: 48px;
+    z-index: 1;
+    overflow-y: scroll;
+    width: 96%;
+    height: 300px;
+    background-color: white;
+}
+.currrentLocation {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(58, 119, 255);
+}
+.forhoverchange {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.forhoverchange:hover {
+    cursor: pointer;
+    background-color: rgb(200, 248, 246);
+}
+.currrentLocation1 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.usecrntlink {
+    font-weight: bold;
+}
+.locationicon {
+    font-size: x-large;
+    position: relative;
+    top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.locationhr {
+    margin: 0;
+}
+.delmarginp {
+    margin: 0;
+    font-size: medium;
+}
+.popularlocation {
+    font-size: smaller;
+    color: gray;
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+}
+.popularlocation1 {
+    margin: 0;
+    padding: 10px;
+    font-weight: 500;
+    font-size: smaller;
+}
+.popularlocation1:hover {
+    background-color: rgb(200, 248, 246);
+    cursor: pointer;
+}
+.popularlocationicon {
+    font-size: x-large;
+    padding-left: 7px;
+    padding-right: 15px;
+}
+.searchitem {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+.searchitem2 {
+    font-weight: 500;
+    padding: 8px;
+    flex: 1;
+    color: gray;
+    border: 2px solid;
+    border-color: rgb(0, 48, 52);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searchitem2:focus {
+    border-color: lightseagreen;
+    outline: none;
+}
+.search2 {
+    height: 100%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.search3 {
+    border: none;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    background-color: rgb(0, 48, 52);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.search3:focus {
+    text-decoration: none;
+    outline: none;
+}
+.btnlog {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    align-items: center;
+    text-align: center;
+    /* display: flex;
+    flex-direction: row; */
+}
+.btnlog2 {
+    justify-content: space-between;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.message {
+    text-align: center;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    border: none;
+    border-radius: 50%;
+    transition: 1s;
+}
+.message:hover {
+    border: none;
+    border-radius: 50%;
+    background-color: #23e5db;
+}
+.comment {
+    text-align: center;
+    margin-top: 10px;
+}
+.account {
+    text-transform: lowercase;
+    padding-top: 5px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: large;
+    border: none;
+    background-color: green;
+    border-radius: 50%;
+}
+.account2 {
+    margin: 0;
+    font-size: x-large;
+}
+.logbtn {
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(235, 238, 239);
+    border: none;
+    margin: 0;
+    /* width: 45%; */
+    padding: 8px 0px 8px;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    display: inline-block;
+}
+.logbtn:focus {
+    outline: none;
+    text-decoration: none;
+}
+.logicon {
+    margin-left: 5px;
+}
+.userlogoutdiv {
+    width: 100%;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid silver;
+    padding: 20px;
+    /* display: block; */
+    position: absolute;
+    top: 50px;
+
+}
+.myadsbtn {
+    width: 100%;
+    padding: 5px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+.myadsbtn:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+.myadsbtn:focus {
+    outline: none;
+}
+.close1 {
+    font-size: large;
+    width: 10px;
+    position: absolute;
+    right: 10px;
+}
+.slidepicbody {
+    color: rgb(0, 48, 52);
+}
+.slidepic {
+    height: 180px;
+}
+.selectlogin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(0, 48, 52);
+    color: rgb(0, 48, 52);
+}
+.selectlogin:hover {
+    border: 5px solid;
+    padding: 7px;
+}
+.selectloginicon {
+    font-size: smaller;
+    margin-right: 10px;
+    border: 2px solid;
+    padding: 3px 7px 3px 7px;
+    border-radius: 50%;
+}
+.modalfooter {
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+    color: rgb(0, 48, 52);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sellbtn {
+    border: none;
+    width: 100%;
+    background-image: linear-gradient(135deg, #ffce32 30%, #23e5db 60%, #3a77ff 10%);
+    padding: 5px;
+    border-radius: 30px;
+}
+.sellbtn:focus {
+    outline: none !important;
+}
+.sellbtn2 {
+    border-radius: 30px;
+    width: 100%;
+    display: inline-block;
+    background: white;
+    color: rgb(0, 48, 52);
+    padding: 6px;
+    font-weight: bolder;
+}
+.plusicon {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+/* .olxposter {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+} */
+/* * {
+    border: 1px solid;
+} */

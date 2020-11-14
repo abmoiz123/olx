@@ -1,0 +1,27 @@
+.congratscon {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(0, 48, 52);
+
+}
+.circleright {
+    font-size: 80px;
+    color: lightseagreen;
+}
+.previewadbtn {
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.previewadbtn:hover {
+    border: 5px solid;
+    width: 100%;
+    padding: 7px;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 5px;
+}

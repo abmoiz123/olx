@@ -1,0 +1,26 @@
+const Images ={
+    olxposter:require('../Images/poster1.jpg'),
+    loginpic1:require('../Images/loginpic1.jpg'),
+    loginpic2:require('../Images/loginpic2.jpg'),
+    loginpic3:require('../Images/loginpic3.jpg'),
+    map:require('../Images/map.jpg'),
+    Appstore:require('../Images/appstore.png'),
+    playstore:require('../Images/playstore.png'),
+    Home:require('../Images/Home.jpg'),
+    Ad2:require('../Images/Ad 2.jpg'),
+    Ad3:require('../Images/Ad 3.jpg'),
+    Ad4:require('../Images/Ad 4.jpg'),
+    Ad5:require('../Images/Ad 5.jpg'),
+    Ad6:require('../Images/Ad 6.jpg'),
+    Ad7:require('../Images/Ad 7.jpg'),
+    Ad8:require('../Images/Ad 8.jpg'),
+    Ad9:require('../Images/Ad 9.jpg'),
+    Ad10:require('../Images/Ad 10.jpg'),
+    Ad11:require('../Images/Ad 11.jpg'),
+    Ad12:require('../Images/Ad 12.jpg'),
+    Ad13:require('../Images/Ad 13.jpg'),
+    Ad14:require('../Images/Ad 14.jpg'),
+    Ad15:require('../Images/Ad 15.jpg'),
+    Ad16:require('../Images/Ad 16.jpg')
+}
+export default Images

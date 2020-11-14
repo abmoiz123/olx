@@ -1,0 +1,142 @@
+.adpreviewcon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* .addescol {
+    padding: 0 !important;
+    margin: 0 !important;
+} */
+.picdiv {
+    height: 470px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.adimg {
+    height: 450px;
+    width: 100%;
+    border-radius: 5px;
+}
+.adimgdiv {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.picsidediv {
+    background-color: black;
+}
+.detailsdiv {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.addescrip {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+.sellerdiv {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.sellerdiv2 {
+    display: flex;
+    flex-direction: row;
+}
+.saleprice {
+    flex: 1;
+}
+.shareicon {
+    text-align: center;
+    padding: 7px 7px 0px 7px;
+}
+.shareicon:hover {
+    padding: 7px 7px 0px 7px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+}
+.shareicon2 {
+    padding: 7px 7px 0px 7px;
+}
+.adselllocation {
+    margin: 0;
+    font-size: small;
+    color: gray;
+}
+.adpostdate {
+    float: right;
+}
+.accountdetail {
+    display: flex;
+    flex-direction: row;
+}
+.accountcircle {
+    font-size: 60px !important;
+}
+.sellername {
+    padding: 15px 10px 5px 10px;
+    flex: 1;
+    height: 60px;
+}
+.rightangle11 {
+    padding: 8px;
+    font-size: 35px;
+    height: 58px;
+}
+.removeadbtn {
+    font-weight: bolder;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.removeadbtn:focus {
+    outline: none;
+    font-weight: bolder;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 5px solid;
+}
+.chatsellerbtn {
+    font-weight: bolder;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: rgb(0, 48, 52);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.chatsellerbtn:focus {
+    outline: none;
+}
+.callseller {
+    padding: 10px;
+    text-align: center;
+}
+.userlocationmap {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+.adid {
+    font-size: small;
+    font-weight: bolder;
+}
+.reportad {
+    float: right;
+}
+/* * {
+    border: 1px solid;
+} */
